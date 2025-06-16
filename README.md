@@ -11,11 +11,12 @@ This GitHub repository is used to host video files (under 20MB) for use in our W
 
 2. **Get the jsDelivr URL**  
    After uploading, copy the raw file path and convert it into a jsDelivr URL using this format:
-   https://cdn.jsdelivr.net/gh/[username]/[repo-name]@latest/[path-to-file]
+   https://cdn.jsdelivr.net/gh/[username]/[repo-name]@latest/[path-to-file] OR
+   https://cdn.jsdelivr.net/gh/[username]/[repo-name]/[path-to-file]
 
    _Example:_  
-For a file at `media/intro-video.mp4` in a repo called `client-media` owned by `exampleuser`, the CDN URL would be:
-https://cdn.jsdelivr.net/gh/exampleuser/client-media@latest/media/intro-video.mp4
+For a file at `media/ROU-wine-showreel.mp4` in a repo called `media`, the CDN URL would be:
+https://cdn.jsdelivr.net/gh/RoundhouseStudio/media/ROU-wine-showreel.mp4
 
 3. **Paste Into Webflow**  
 Use this jsDelivr URL when embedding videos into Webflow — e.g., as a background video or inside a video element.
